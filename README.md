@@ -99,13 +99,7 @@ Bei **Xbox Cloud Gaming** läuft das Spiel auf einem Microsoft-Server, nicht bei
 - **Port belegt:** Läuft parallel ein anderes Telemetrie-Tool (z. B. SimHub) auf demselben Port? Dann einen anderen Port wählen, im Spiel und beim Programmstart.
 - **Änderungen werden nicht sichtbar:** Programm beenden und neu starten, im Browser hart neu laden (`Strg + F5`).
 
-### Ehrliche Einschränkungen
 
-- **Reifentemperatur-Einheit:** Das Spiel dokumentiert die Einheit nicht eindeutig. Die Werte werden überwiegend als Fahrenheit interpretiert; das Dashboard zeigt standardmäßig Celsius (umgerechnet) mit Umschalter. Im Zweifel an einem kalten Reifen prüfen (sollte etwa Umgebungstemperatur sein).
-- **Renn-Erkennung:** Der Rennen-Tab erkennt ein Rennen am Renn-Flag des Spiels. Sollte das Spiel dieses Flag auch im freien Fahren setzen, können freie Fahrten als "Rennen" auftauchen — am besten direkt nach einem echten Rennen exportieren.
-- **Kein Start-Countdown:** Der In-Game-Countdown lässt sich nicht abgreifen, da das Spiel erst Daten sendet, sobald man fährt. Horizon-Rennen haben oft ohnehin keinen festen Standing-Start-Countdown.
-- **Optimaler Schaltpunkt:** Ohne die Getriebeübersetzungen ist der exakte optimale Schaltpunkt nicht berechenbar. Das Dashboard nutzt einen einstellbaren Punkt relativ zum Drehzahllimit und zeigt zusätzlich die mitgelernte Leistungsspitze.
-- **Kartenbild:** Es wird bewusst kein Kartenbild mitgeliefert. Karten aus dem Spiel sind urheberrechtlich geschützt. Du kannst privat einen eigenen Screenshot hinterlegen; das Ausrichten erfolgt per Augenmaß über Regler.
 
 ### Hinweis
 
@@ -208,13 +202,6 @@ With **Xbox Cloud Gaming** the game runs on a Microsoft server, not at your home
 - **Port in use:** Is another telemetry tool (such as SimHub) running on the same port? Choose a different port, both in game and when starting the program.
 - **Changes not showing:** stop and restart the program, then hard-reload the browser (`Ctrl + F5`).
 
-### Honest limitations
-
-- **Tire temperature unit:** The game does not clearly document the unit. The values are commonly interpreted as Fahrenheit; the dashboard shows Celsius by default (converted) with a toggle. If unsure, check on a cold tire (it should read roughly ambient temperature).
-- **Race detection:** The race tab detects a race via the game's race flag. If the game also sets this flag during free roam, free-roam drives may appear as "races" — it is best to export right after an actual race.
-- **No start countdown:** The in-game countdown cannot be captured because the game only starts sending once you are driving. Horizon races often have no fixed standing-start countdown anyway.
-- **Optimal shift point:** Without the gear ratios, the exact optimal shift point cannot be computed. The dashboard uses an adjustable point relative to the rev limit and additionally shows the learned power peak.
-- **Map image:** No map image is bundled on purpose. In-game maps are copyrighted. You can add your own screenshot privately; alignment is done by eye using sliders.
 
 ### Note
 
